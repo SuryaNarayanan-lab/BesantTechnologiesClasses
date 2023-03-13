@@ -1,0 +1,20 @@
+head {
+    margin: 1rem;
+    color : grey;
+    background-color: white;
+}
+
+.formControl{
+    color: blue;
+    background-color: cornsilk;
+}
+
+
+/* td {
+    text-align: center;
+}
+
+.tableHeader{
+    background-color: chocolate;
+    color: white;
+} */

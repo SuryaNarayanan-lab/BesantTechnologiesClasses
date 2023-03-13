@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='myStyle.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form class="formControl">
+        <h2>Registration Form</h2>
+        <p> <b> Name </b>
+        <input type="text" name="name" value="" ></p>
+        <p> <b> Mobile Number </b>
+        <input type="number" name="mobile" value="" ></p>
+        <p> <b> Address </b>
+        <textarea name="address" cols="25" rows="2"></textarea></p>
+        <p> <b> Course </b>
+        <input type="checkbox" name="course">HTML
+        <input type="checkbox" name="course">Python
+        <input type="checkbox" name="course">Java
+        <input type="checkbox" name="course">SQL
+    </p>
+        <p><b>DOB</b>
+        <input type="date" name="dob">
+    </p>
+        
+        <p><b>Photo</b>
+        <input type="file" name="photo">
+    </p>
+        <p><b>Color Pick</b>
+        <input type="color" name="colour">
+    </p>
+
+        <p><b>Gender</b>
+        <input type="radio" name="gender" checked="true">Male
+        <input type="radio" name="gender">Female
+    </p>
+        <p><b>Qualification</b>
+        <select name="Qualification">
+        <option value="Degree">B.Sc.,</option>
+        <option value="Degree">BA</option>
+        <option value="Degree">B.Com.</option>
+        <option value="Masters" selected>Master Degree</option>
+    </p>
+    </select>
+        <p>
+        <button type="submit" name="submit">Submit Form</button>
+    </p>
+    </form>
+</body>
+</html>
